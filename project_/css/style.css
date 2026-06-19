@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+
+p[align="right"] a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #222;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+p[align="right"] a:hover {
+    background-color: #555;
+}
+
+/* عنوان الموقع */
+h1 {
+    text-align: center;
+    color: #222;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+/* المنتجات */
+center div {
+    background-color: white;
+    width: 450px;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+center div:hover {
+    transform: scale(1.03);
+}
+
+/* الصور */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* الأسعار */
+h2 {
+    color: #b8860b;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* الخطوط الفاصلة */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+
+/* للهواتف الصغيرة */
+@media screen and (max-width: 500px) {
+    center div {
+        width: 90%;
+        padding: 15px;
+    }
+
+    img {
+        height: auto;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
